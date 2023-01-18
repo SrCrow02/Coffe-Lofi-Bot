@@ -1,0 +1,35 @@
+{
+  "name": "coffe-lofibot",
+  "version": "1.0.0",
+  "description": "Um bot de musica",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only index.ts",
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrCrow02/Coffe-Lofi-Bot.git"
+  },
+  "keywords": [
+    "Bot"
+  ],
+  "author": "https://github.com/SrCrow02",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrCrow02/Coffe-Lofi-Bot/issues"
+  },
+  "homepage": "https://github.com/SrCrow02/Coffe-Lofi-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-arbitrary-ffmpeg": "^1.1.0",
+    "dotenv": "^10.0.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "opusscript": "^0.0.8",
+    "ts-node-dev": "^2.0.0",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.11.2"
+  }
+}
